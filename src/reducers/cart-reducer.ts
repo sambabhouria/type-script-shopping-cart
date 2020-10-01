@@ -1,4 +1,4 @@
-import Product from '../pages/products/product';
+import Product from '../pages/Products/Product';
 import TYPES from './types';
 import { clearSelect, removeSelect, addSelect } from './selectors/cart-selectors';
 

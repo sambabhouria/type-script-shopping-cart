@@ -1,4 +1,4 @@
-import Product from '../pages/Products/product';
+import Product from '../pages/Products/Product';
 
 
 class CartStorage {

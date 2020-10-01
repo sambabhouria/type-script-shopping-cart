@@ -1,4 +1,4 @@
-import Product from '../../Products/product';
+import Product from '../../Products/Product';
 
 export default  interface CartContextManager {
     clearCart: Function;

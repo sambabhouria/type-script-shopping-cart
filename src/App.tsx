@@ -1,7 +1,9 @@
 import React, { useReducer } from 'react';
 import styled from 'styled-components';
 import layoutConstants from './layout/layout-constants';
-//import CartContext from './pages/cart/context/cart-context';
+import cartReducer from './reducers/cart-reducer';
+import TYPES from './reducers/types';
+import CartContext from './pages/cart/context/cart-context';
 import Content from './layout/content';
 import CartStorage from './service/cart-storage';
 import logo from './logo.svg';
