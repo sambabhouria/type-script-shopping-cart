@@ -25,13 +25,13 @@ class CartStorage {
         const products = [...this.getProductsCart(), product];
     }
 
-    public removeProductToCart(id:string= '0'):void {
+    public removeProductOfCart(id:string= '0'):void {
         const products = this.getProductsCart().filter(p => p.id !== id);
         this.setProductsToCart(products);
 
     }
 
-    public clearStorage () :void {
+    public clearCart () :void {
         localStorage.setItem(this.key, '[]');
     }
 
