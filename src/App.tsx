@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useReducer } from 'react';
+import styled from 'styled-components';
+import layoutConstants from './layout/layout-constants';
+//import CartContext from './pages/cart/context/cart-context';
+import Content from './layout/content';
+import CartStorage from './service/cart-storage';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+
+const StyledApp = styled.div`
+  margin-top: ${layoutConstants.NAVBAR_HEIGHT}px;
+`;
+
+const initialValues = {
+  products: CartStorage.getProductsCart(),
+};
+
+const App: React.FC = () => {
+
   return (
-    <div className="App">
+    <StyledApp>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,8 +35,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+  </StyledApp>
   );
-}
+};
 
 export default App;
