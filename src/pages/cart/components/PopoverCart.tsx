@@ -2,9 +2,9 @@ import React, { Fragment, useContext, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Icon, Image, Label, List, Popup, Segment } from 'semantic-ui-react';
 import styled from 'styled-components';
-import CartContext from '../context/cart-context';
-import CartContextManager from '../context/cart-context-manager';
-import ButtonRemoveItem from './button-remove-item';
+import CartContext from '../context/CartContext';
+import CartContextManager from '../context/CartContextManager';
+import ButtonRemoveItem from './ButtonRemoveItem';
 
 
 const PopoverContent = styled.aside`

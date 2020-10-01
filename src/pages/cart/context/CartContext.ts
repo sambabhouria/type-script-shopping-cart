@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from '../../Products/Product';
-import CartContextManager from './cart-context-manager';
+import CartContextManager from './CartContextManager';
 
 const CartContext =  React.createContext<CartContextManager>({
     removeItem: (id?: string) => console.log(id),
