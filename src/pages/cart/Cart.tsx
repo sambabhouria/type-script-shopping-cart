@@ -7,7 +7,7 @@ const Cart: React.FC<RouteComponentProps> = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Carrinho</title>
+        <title>Panier</title>
       </Helmet>
       <ListProductsCart />
     </Fragment>

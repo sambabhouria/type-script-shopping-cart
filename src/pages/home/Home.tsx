@@ -7,11 +7,11 @@ const Home: React.FC<RouteComponentProps> = () => {
   return (
     <Segment placeholder>
       <Helmet>
-        <title>Bem vindo</title>
+        <title>Bienvenue</title>
       </Helmet>
-      <Link to="produtos">
+      <Link to="produits">
         <Button fluid size="massive">
-          Ver Produtos
+          voirs les Produits
         </Button>
       </Link>
     </Segment>

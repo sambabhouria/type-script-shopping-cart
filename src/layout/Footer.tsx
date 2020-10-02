@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         <Icon name="cart" />
         <Header.Content>
           Shopping Cart
-          <Header.Subheader>Projeto exemplo carrinho de compras</Header.Subheader>
+          <Header.Subheader>Exemple de projet d'achat</Header.Subheader>
         </Header.Content>
       </Header>
       <a

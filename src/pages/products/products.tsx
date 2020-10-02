@@ -36,7 +36,7 @@ const Products: React.FC<RouteComponentProps> = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Produtos</title>
+        <title>Produits</title>
       </Helmet>
       {productToShow && (
         <ModalProduct
@@ -49,7 +49,7 @@ const Products: React.FC<RouteComponentProps> = () => {
       )}
       <Segment placeholder>
         <Header textAlign="center" as="h1">
-          Produtos
+         Produits
         </Header>
       </Segment>
       <GridProucts

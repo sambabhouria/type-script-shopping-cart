@@ -58,7 +58,7 @@ const ModalProduct: React.FC<ModalProps> = ({ onClose, onAdd, open, product, isI
           color={isInTheCart ? 'green' : 'blue'}
         >
           <Icon name="plus" />
-          {isInTheCart ? `  Já está no carrinho   ` : `  Adicionar ao carrinho   `}
+          {isInTheCart ? `  C’est déjà dans le panier  ` : `  Ajouter au panier    `}
           <Icon name="cart" />
         </Button>
       )}

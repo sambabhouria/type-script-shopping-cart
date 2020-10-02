@@ -71,7 +71,7 @@ const PopoverCart: React.FC = () => {
     return (
       <Popup basic style={{ width: '400px' }} wide trigger={trigger} on="click" open={isOpen}>
         <Segment size="massive" color="orange">
-          <strong> Meu Carrinho</strong>
+          <strong> Mon panier</strong>
           <br />
           <p>
             <small>
@@ -105,10 +105,10 @@ const PopoverCart: React.FC = () => {
             {ListProducts}
           </List>
         </PopoverContent>
-        <Link to={haveProducts ? 'carrinho' : 'produtos'}>
+        <Link to={haveProducts ? 'panier' : 'produits'}>
           <Button color="green" fluid animated>
             <Button.Content visible>
-              {haveProducts ? 'Finalizar Compra' : 'Ver Produtos'}
+              {haveProducts ? 'Finalizar Compra' : 'Voir les Produits'}
             </Button.Content>
             <Button.Content hidden>
               <Icon name={haveProducts ? 'arrow right' : 'arrow left'} />

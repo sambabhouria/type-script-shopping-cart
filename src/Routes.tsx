@@ -26,8 +26,8 @@ const Routes: React.FC = () => {
     <Suspense fallback={loader}>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/produtos" component={Products} />
-        <Route path="/carrinho" exact component={Cart} />
+        <Route path="/produits" component={Products} />
+        <Route path="/panier" exact component={Cart} />
         <Route path="*" render={() => <Redirect to="/" />} />
       </Switch>
     </Suspense>
