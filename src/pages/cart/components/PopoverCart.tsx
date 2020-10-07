@@ -90,7 +90,7 @@ const PopoverCart: React.FC = () => {
                 </Fragment>
               ) : (
                 <Fragment>
-                  está vazio ...
+                  est vide ...
                   <Icon name="leaf" />
                   <Icon name="leaf" />
                   <Icon name="leaf" />
@@ -108,7 +108,7 @@ const PopoverCart: React.FC = () => {
         <Link to={haveProducts ? 'panier' : 'produits'}>
           <Button color="green" fluid animated>
             <Button.Content visible>
-              {haveProducts ? 'Finalizar Compra' : 'Voir les Produits'}
+              {haveProducts ? 'Terminer l’achat' : 'Voir les Produits'}
             </Button.Content>
             <Button.Content hidden>
               <Icon name={haveProducts ? 'arrow right' : 'arrow left'} />
