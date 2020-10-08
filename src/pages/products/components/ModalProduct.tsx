@@ -50,7 +50,7 @@ const ModalProduct: React.FC<ModalProps> = ({ onClose, onAdd, open, product, isI
     </Modal.Content>
 
     <Modal.Actions>
-      <Button onClick={() => onClose()}>Voltar</Button>
+      <Button onClick={() => onClose()}>Précédent</Button>
       {product && (
         <Button
           onClick={() => onAdd(product)}
