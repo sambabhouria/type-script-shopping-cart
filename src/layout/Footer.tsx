@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
       </Header>
       <a
         style={{ color: '#000' }}
-        href="https://github.com/juniorstreichan/shopping-cart/"
+        href="https://github.com/sambabhouria/type-script-shopping-cart"
         target="_blank"
         rel="noopener noreferrer"
       >
